@@ -1,5 +1,7 @@
 import { defineConfig } from 'drizzle-kit';
-import "dotenv/config"
+import dotenv from "dotenv"
+
+dotenv.config()
 
 let dbCredentials = {
   host: process.env.DB_HOST,
