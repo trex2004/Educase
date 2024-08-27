@@ -1,0 +1,25 @@
+{
+  "name": "educase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Swayam",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.24.1",
+    "nodemon": "^3.1.4"
+  }
+}
